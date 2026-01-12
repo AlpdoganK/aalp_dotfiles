@@ -1,0 +1,9 @@
+[user]
+	name = alp
+	email = alpdogankurt46@gmail.com
+
+[core]
+	editor = nano
+
+[pull]
+	rebase = false
