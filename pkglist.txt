@@ -13,6 +13,7 @@ git
 grim
 hyprland
 hyprlauncher
+hyprpaper
 hyprpolkitagent
 kitty
 linux
@@ -38,6 +39,7 @@ slurp
 starship
 sudo
 ttf-dejavu
+ttf-jetbrains-mono-nerd
 ttf-liberation
 unzip
 waybar
