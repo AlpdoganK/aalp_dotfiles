@@ -25,10 +25,12 @@ man-pages
 mesa
 mesa-utils
 nano
+neovim
 networkmanager
 noto-fonts
 noto-fonts-emoji
 otf-font-awesome
+pavucontrol
 pipewire-alsa
 pipewire-pulse
 playerctl

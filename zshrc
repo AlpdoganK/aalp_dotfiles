@@ -5,8 +5,8 @@ bindkey -e
 
 # basics
 export ZDOTDIR="$HOME"
-export EDITOR=nano
-export VISUAL=nano
+export EDITOR=neovim
+export VISUAL=neovim
 
 # history
 HISTFILE=~/.zsh_history
