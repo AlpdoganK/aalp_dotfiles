@@ -9,7 +9,7 @@
         "custom/music",
     ],
     "modules-center": [
-        "workspaces"
+        "hyprland/workspaces"
     ],
     "modules-right": [
         "network",
@@ -27,6 +27,14 @@
 
     "clock": {
 	"format": "󰥔 {:%H:%M}"
+    },
+
+    "custom/music": {
+      "interval": 1,
+      "return-type": "json",
+      "exec": "~/dotfiles/config/waybar/modules/music.sh",
+      "exec-if": "pgrep cmus",
+      "escape": true,
     },
 
     "cpu": {
@@ -51,9 +59,15 @@
 	"format-disconnected": "󰤭"
     },
 
-    "workspaces": {
-	"disable-scroll": false,
-	"all-outputs": true,
-	"format": "{name}"
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "format-icons": {
+        "active": "",
+        "default": "",
+        "empty": ""
+      },
+      "persistent-workspaces": {
+        "*": [ 1,2,3,4,5 ]
+      }
     },
 }
