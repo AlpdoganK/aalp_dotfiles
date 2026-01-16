@@ -6,6 +6,7 @@ bat
 brightnessctl
 cliphist
 cmus
+discord
 eza
 fastfetch
 fd
@@ -17,7 +18,9 @@ hyprland
 hyprlauncher
 hyprpaper
 hyprpolkitagent
+jdk17-openjdk
 kitty
+lib32-nvidia-utils
 linux
 linux-firmware
 linux-headers
@@ -31,11 +34,15 @@ neovim
 networkmanager
 noto-fonts
 noto-fonts-emoji
+nvidia-open
+nvidia-settings
+nvidia-utils
 otf-font-awesome
 pavucontrol
 pipewire-alsa
 pipewire-pulse
 playerctl
+prismlauncher
 qt5-wayland
 qt6-wayland
 ripgrep
@@ -51,6 +58,7 @@ waybar
 wayland-protocols
 wl-clipboard
 woff2-font-awesome
+wofi
 xdg-desktop-portal-hyprland
 xorg-xwayland
 zsh
