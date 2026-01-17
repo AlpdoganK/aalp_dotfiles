@@ -1,5 +1,6 @@
 alsa-firmware
 alsa-utils
+arduino-cli
 base
 base-devel
 bat
